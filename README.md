@@ -4,7 +4,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ## Preview<br>
 ## Links &#128269;
 <ul>
-<li>Live Site URL: <a href="">Click Here</a></li><br>
+<li>Live Site URL: <a href="https://0xabdul.github.io/Profile-Card-Component/">Click Here</a></li><br>
 <li>Solution URL: <a href="">Click Here</a></li>
 </ul><br>
 
