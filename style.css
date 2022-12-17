@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Kumbh+Sans:wght@700&family=Lexend+Deca&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&family=Outfit:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&family=Outfit:wght@400;600;700&display=swap');
+
+.card-header{
+    text-align: center;
+}
+.victor-header{
+    text-align: center;
+    margin-top:-50px;
+}
+.victor-header img{
+    border-radius: 50%;
+    border-color:white;
+    border-width:7px;
+    border-style:solid;
+}
+.content{
+    text-align: center;
+    font-family:'Kumbh Sans';
+    font-weight: 700;
+    font-size:18px;
+}
+.wrapper{
+    background-color:white;
+    width:350px;
+    border-radius:10px;
+    padding-bottom:5px;
+    margin-left:600px;
+}
+.country-content{
+    text-align: center;
+    border-bottom-style:solid;
+    border-bottom-color:lightgray;
+    border-bottom-width:1px;
+    padding-bottom:5px;
+    font-size:15px;
+    color:hsl(0, 0%, 59%);
+    font-weight:200;
+   font-family:'Kumbh Sans';
+}
+.followers-wrapper{
+    text-align: center;
+    margin-right:230px;
+    margin-top:25px;
+}
+.likes-wrapper{
+    text-align: center;
+    margin-top:-75px;
+}
+.photos-wrapper{
+    text-align: center;
+    margin-left:230px; 
+    margin-top:-77px;
+}
+.wrapper{
+    margin-top:120px;
+    
+    
+}
+.content-age{
+    text-align: center;
+    margin-top:-40px;
+    margin-left:142px;
+    font-size:15px;
+    color:hsl(0, 0%, 59%);
+    font-weight:400;
+   font-family:'Kumbh Sans';
+
+}
+body{
+    background-color:hsl(185, 75%, 39%);
+    background-image:url(bg-pattern-top.svg),url(bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position:right 48vw bottom 25vh,left 45vw top 30vh;
+}
+
+.followers{
+   font-size:18px;
+   font-weight:700;
+   font-family:'Kumbh Sans';
+}
+.likes{
+    font-size:18px;
+    font-weight:700;
+    font-family:'Kumbh Sans';
+
+}
+.photos{
+    font-size:18px;
+    font-weight:700;
+    font-family:'Kumbh Sans';
+}
+.followers-footer{
+    font-size:15px;
+    color:hsl(0, 0%, 59%);
+    font-weight:400;
+   font-family:'Kumbh Sans';
+}
+.likes-footer{
+    font-size:15px;
+    color:hsl(0, 0%, 59%);
+    font-weight:400;
+   font-family:'Kumbh Sans';
+}
+.photos-footer{
+    font-size:15px;
+    color:hsl(0, 0%, 59%);
+    font-weight:400;
+   font-family:'Kumbh Sans';
+}
+.card-header img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.image-footer{
+    margin-top:-1150px;
+}
+.images-footer{
+    margin-left:1000px;
+    margin-top: -80px;
+}
+@media(max-width:375px) {
+    .card-header img{
+        height:110px;
+        margin-top:-100px;
+    }
+    .victor-header{
+        margin-left:-3px;
+    }
+    .victor-header img{
+        height:70px;
+        border-width:4px;
+    }
+    .content{
+        margin-left:-3px;
+    }
+    .content-age{
+        margin-left:135px;
+    }
+    .country-content{
+        margin-left:-3px;
+    }
+    .followers-wrapper{
+        margin-left:-10px;
+        margin-top: -0px;
+        margin-top:30px;
+    }
+    .likes-wrapper{
+        margin-left:20px;
+        margin-top:-80px;
+    }
+    .photos-wrapper{
+        margin-left:160px;
+    }
+    .body-wrapper{
+       margin-left:42px;
+    margin-right:42px;
+    }
+    .wrapper{
+        margin-left:43px;
+        margin-right:41px;
+        width:275px;
+        margin-top:200px;
+    }
+    }
